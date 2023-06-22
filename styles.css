@@ -14,7 +14,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 47px;
-    padding-top: 80px;
+    padding-top: 70px;
 }
 
 .left {
@@ -23,26 +23,26 @@ body {
 
 h1 {
     font-weight: 700;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 70px;
     color: #D9D9D9;
 }
 
 .line1 {
     border: 1px solid #BE8600;
-    width: 375px;
-    margin-top: 35px;
+    width: 315px;
+    margin-top: 15px;
 }
 
 .line2 {
-    width: 170px;
+    width: 295px;
     border: 1px solid #BE8600;
-    margin-top: 35px;
+    margin-top: 15px;
 }
 
 .first-paragraph {
     font-weight: 600;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 60px;
     color: #C7C7C7;
     margin-top: 34px;
@@ -72,8 +72,8 @@ a {
 }
 
 button {
-    width: 284px;
-    height: 73px;
+    width: 264px;
+    height: 63px;
     background: #BE8600;
     border-radius: 20px;
     border: none;
@@ -84,19 +84,21 @@ button {
     margin-top: 40px;
     cursor: pointer;
     animation: piscar 1s infinite;
-    -webkit-box-shadow: 1px 1px 20px 5px #000000; 
+    -webkit-box-shadow: 1px 1px 20px 5px #000000;
     box-shadow: 1px 1px 20px 5px #000000;
 }
 
 @keyframes piscar {
     0% {
-      opacity: 3;
+        opacity: 3;
     }
+
     50% {
-      opacity: 0.5;
+        opacity: 0.5;
     }
+
     100% {
-      opacity: 1;
+        opacity: 1;
     }
 }
 
@@ -106,14 +108,14 @@ button:hover {
 }
 
 .person-img {
-    width: 765px;
-    height: 765px;
+    width: 505px;
+    height: 505px;
     background: #292931;
     border: 1px solid #ffffff;
     border-radius: 10000px;
     background-image: url('./img/photo1.png');
-    background-position: 80% 70%;
-    background-repeat: no-repeat; 
+    background-position: 60% 60%;
+    background-repeat: no-repeat;
 }
 
 .icons {
@@ -135,7 +137,7 @@ button:hover {
 
 .bola:hover {
     transform: scale(1.08);
-    -webkit-box-shadow: 1px 1px 20px 5px #000000; 
+    -webkit-box-shadow: 1px 1px 20px 5px #000000;
     box-shadow: 1px 1px 20px 5px #000000;
 }
 
@@ -146,7 +148,7 @@ button:hover {
     text-align: center;
     justify-content: center;
 }
-  
+
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 100px;
@@ -157,10 +159,10 @@ button:hover {
     text-align: center;
     margin-left: 5px;
 }
-  
+
 .tooltip:hover .tooltiptext {
     visibility: visible;
-    
+
 }
 
 #habilities {
@@ -212,7 +214,7 @@ button:hover {
     width: 44em;
     border-top: 2px solid #BE8600;
     margin: 0 auto;
-    margin-top: 5em;
+    margin-top: 1em;
 }
 
 .box-contact {
@@ -255,15 +257,15 @@ button:hover {
 
 .caixa {
     border: 1px solid #BE8600;
-    width: 240px;
-    height: 240px;
+    width: 190px;
+    height: 190px;
     background: #292931;
 }
 
 .caixa-contato {
     border: 1px solid #BE8600;
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
     background: #292931;
     border-radius: 50%;
 }
@@ -272,8 +274,8 @@ button:hover {
     transition-duration: 0.8s;
     transform: scale(1.08);
     cursor: pointer;
-    background: #BE8600; 
-    -webkit-box-shadow: 1px 1px 20px 5px #000000; 
+    background: #BE8600;
+    -webkit-box-shadow: 1px 1px 20px 5px #000000;
     box-shadow: 0 0 100px #BE8600;
 }
 
@@ -281,6 +283,7 @@ button:hover {
     width: 100%;
     height: 100%;
 }
+
 .tecnologies {
     width: 100%;
 }
@@ -289,25 +292,26 @@ button:hover {
     transition-duration: 0.8s;
     transform: scale(1.08);
     cursor: pointer;
-    background: #BE8600; 
-    -webkit-box-shadow: 1px 1px 20px 5px #000000; 
+    background: #BE8600;
+    -webkit-box-shadow: 1px 1px 20px 5px #000000;
     box-shadow: 0 0 100px #BE8600;
 }
 
 html {
     scroll-behavior: smooth;
-} 
+}
 
 .caixa-projeto {
-    width: 30em;
+    width: 28em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin: 20px 30px 100px 10px;
-    
+
 }
+
 .caixa-projeto h3 {
     font-weight: 400;
     font-size: 33px;
@@ -326,26 +330,29 @@ html {
 
 .caixa-projeto a {
     text-decoration: none;
-    color:  #BE8600;
+    color: #BE8600;
     animation: piscar 1s infinite;
     box-shadow: 2px 2px 20px 5px transparent;
 }
 
 @keyframes piscar {
     0% {
-      opacity: 3;
+        opacity: 3;
     }
+
     50% {
-      opacity: 0.5;
+        opacity: 0.5;
     }
+
     100% {
-      opacity: 1;
+        opacity: 1;
     }
 }
+
 .projects {
-    width:100%;
+    width: 100%;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -361,11 +368,11 @@ html {
 }
 
 .project:hover {
-    -webkit-box-shadow: 1px 1px 20px 5px #000000; 
+    -webkit-box-shadow: 1px 1px 20px 5px #000000;
     box-shadow: 0 0 100px #BE8600;
     transition-duration: 0.8s;
     transform: scale(1.08);
-    cursor: pointer;    
+    cursor: pointer;
 }
 
 .alinhamento {
@@ -374,18 +381,19 @@ html {
     justify-content: center;
     align-items: baseline;
     flex-wrap: wrap;
-    
+
 }
-.texto p{
-    width: 465px;
-    text-align:justify; 
+
+.texto p {
+    width: 445px;
+    text-align: justify;
 }
 
 footer {
     width: 100%;
-    height: 250px;
+    height: 150px;
     border-top: 2px solid #BE8600;
-    margin-top: 20em;
+    margin-top: 10em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -393,9 +401,103 @@ footer {
 
 .text-footer {
     font-size: 20px;
-    color: #D9D9D9; 
+    color: #D9D9D9;
 }
 
 .heart {
     width: 50px;
+}
+
+@media screen and (max-width: 720px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 47px;
+        padding-top: 70px;
+    }
+    .left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 600px;
+        padding: 20px;
+    }
+    h1 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 60px;
+        color: #D9D9D9;
+    }
+    .line1{
+        text-align: center;
+    }
+    .line12 {
+        text-align: center;
+    }
+    .first-paragraph {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 60px;
+        color: #C7C7C7;
+        margin-top: 34px;
+        text-align: center;
+    }
+    .second-paragraph {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 35px;
+        color: #D9D9D9;
+        margin-top: 34px;
+        text-align: justify;
+    }
+    .icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .tooltip  {
+        width: 100px;
+        color: #D9D9D9;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+       
+    }
+    .line3 {
+        width:600px;
+        border-top: 2px solid #BE8600;
+        margin: 0 auto;
+        margin-top: 12em;
+    }
+    .box {
+        width: 600px;
+        height: 120px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2em;
+    }
+    .box p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: justify;
+        color: #C7C7C7;
+    
+    }
+    .caixa {
+        border: 1px solid #BE8600;
+        width: 80px;
+        height: 80px;
+        background: #292931;
+    }
+    
+    
 }
