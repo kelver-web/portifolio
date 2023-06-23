@@ -178,6 +178,7 @@ button:hover {
     margin: 0 auto;
     margin-top: 12em;
 }
+
 .box {
     width: 708px;
     height: 120px;
@@ -407,9 +408,7 @@ footer {
     width: 50px;
 }
 
-
-
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .container {
         display: flex;
         flex-direction: column;
@@ -418,6 +417,7 @@ footer {
         gap: 47px;
         padding-top: 70px;
     }
+
     .left {
         display: flex;
         flex-direction: column;
@@ -426,18 +426,22 @@ footer {
         width: 600px;
         padding: 20px;
     }
+
     h1 {
         font-weight: 700;
         font-size: 30px;
         line-height: 60px;
         color: #D9D9D9;
     }
-    .line1{
+
+    .line1 {
         text-align: center;
     }
+
     .line2 {
         text-align: center;
     }
+
     .first-paragraph {
         font-weight: 600;
         font-size: 30px;
@@ -446,6 +450,7 @@ footer {
         margin-top: 34px;
         text-align: center;
     }
+
     .second-paragraph {
         font-weight: 400;
         font-size: 20px;
@@ -454,6 +459,7 @@ footer {
         margin-top: 34px;
         text-align: justify;
     }
+
     .icons {
         display: flex;
         flex-direction: row;
@@ -461,24 +467,28 @@ footer {
         align-items: center;
 
     }
-    .tooltip  {
+
+    .tooltip {
         width: 100px;
         color: #D9D9D9;
         display: flex;
         flex-direction: column;
         gap: 5px;
-       
+
     }
+
     .line3 {
-        width:600px;
+        width: 600px;
         border-top: 2px solid #BE8600;
         margin: 0 auto;
         margin-top: 12em;
     }
+
     .line3 h3 {
         margin-right: 2em;
-        
+
     }
+
     .box {
         width: 600px;
         height: 120px;
@@ -489,19 +499,22 @@ footer {
         justify-content: center;
         gap: 2em;
     }
+
     .box p {
         font-weight: 400;
         font-size: 20px;
         line-height: 30px;
         text-align: justify;
         color: #C7C7C7;
-    
+
     }
+
     .box h3 {
         margin-left: 4em;
         padding-top: 3em;
-       
+
     }
+
     .caixa {
         border: 1px solid #BE8600;
         width: 80px;
@@ -509,13 +522,15 @@ footer {
         background: #292931;
         margin-top: 5em;
     }
+
     .line-footer {
         width: 790px;
     }
-    .alinhamento{
+
+    .alinhamento {
         margin-left: 3em;
     }
-    
+
 }
 
 @media screen and (max-width: 820px) {
@@ -527,6 +542,7 @@ footer {
         gap: 47px;
         padding-top: 70px;
     }
+
     .left {
         display: flex;
         flex-direction: column;
@@ -535,18 +551,22 @@ footer {
         width: 600px;
         padding: 20px;
     }
+
     h1 {
         font-weight: 700;
         font-size: 30px;
         line-height: 60px;
         color: #D9D9D9;
     }
-    .line1{
+
+    .line1 {
         text-align: center;
     }
+
     .line2 {
         text-align: center;
     }
+
     .first-paragraph {
         font-weight: 600;
         font-size: 30px;
@@ -555,6 +575,7 @@ footer {
         margin-top: 34px;
         text-align: center;
     }
+
     .second-paragraph {
         font-weight: 400;
         font-size: 20px;
@@ -563,6 +584,7 @@ footer {
         margin-top: 34px;
         text-align: justify;
     }
+
     .icons {
         display: flex;
         flex-direction: row;
@@ -570,30 +592,36 @@ footer {
         align-items: center;
 
     }
-    .tooltip  {
+
+    .tooltip {
         width: 100px;
         color: #D9D9D9;
         display: flex;
         flex-direction: column;
         gap: 5px;
-       
+
     }
+
     .line3 {
-        width:100%;
+        width: 100%;
         border-top: 2px solid #BE8600;
         margin: 0 auto;
         margin-top: 12em;
     }
-    .line3 h3{
+
+    .line3 h3 {
         margin-right: 3em;
         margin-left: 3em;
     }
-    .line3 .hab{
-       padding-top: 2em;
+
+    .line3 .hab {
+        padding-top: 2em;
     }
+
     .line3 .cont {
         margin-left: 0em;
     }
+
     .box {
         width: 600px;
         height: 120px;
@@ -604,52 +632,42 @@ footer {
         justify-content: center;
         gap: 2em;
     }
+
     .box p {
         font-weight: 400;
         font-size: 20px;
         line-height: 30px;
         text-align: justify;
         color: #C7C7C7;
-    
+
     }
+
     .caixa {
         border: 1px solid #BE8600;
         width: 80px;
         height: 80px;
         background: #292931;
         margin-top: 2em;
-    } 
+    }
 }
 
-@media screen and (max-width: 912px) {
+
+@media screen and (max-width: 280px) {
     .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 47px;
-        padding-top: 70px;
-    }
-    .left {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
         width: 600px;
-        padding: 20px;
     }
-    h1 {
-        font-weight: 700;
-        font-size: 30px;
-        line-height: 60px;
-        color: #D9D9D9;
+    .left{
+        margin-right: 15em;
     }
-    .line1{
+
+    .line1 {
         text-align: center;
     }
-    .line12 {
+
+    .line2 {
         text-align: center;
     }
+
     .first-paragraph {
         font-weight: 600;
         font-size: 30px;
@@ -658,6 +676,7 @@ footer {
         margin-top: 34px;
         text-align: center;
     }
+
     .second-paragraph {
         font-weight: 400;
         font-size: 20px;
@@ -666,6 +685,104 @@ footer {
         margin-top: 34px;
         text-align: justify;
     }
+
+    .icons {
+        
+        margin-right: 15em;
+
+    }
+    .person-img{
+        margin-right: 15em;
+    }
+
+    .line4 {
+        width: 600px;
+        border-top: 2px solid #BE8600;
+        margin: 0 auto;
+        margin-top: 7em;
+    }
+
+    .box {
+        width: 700px;
+        height: 120px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2em;
+        margin-left: 2em;
+    }
+
+    .box p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: justify;
+        color: #C7C7C7;
+
+    }
+
+    .caixa {
+        border: 1px solid #BE8600;
+        width: 80px;
+        height: 80px;
+        background: #292931;
+        width: 100%;
+    }
+
+    .habilities {
+        width: 100%;
+        margin-right: 5em;
+        padding-left: 5em;
+    }
+
+    .projects {
+        margin-left: 10em;
+    }
+
+    .contacts {
+        width: 600px;
+        margin-left: 5em;
+    }
+    .line-footer{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .container {
+        width: 100vw;
+        margin-left: auto;
+    }
+    .left{
+        width: 100vw;
+        margin-left: auto;
+        
+    }
+
+    .line2 {
+        text-align: center;
+    }
+
+    .first-paragraph {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 60px;
+        color: #C7C7C7;
+        margin-top: 34px;
+        text-align: center;
+    }
+
+    .second-paragraph {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 35px;
+        color: #D9D9D9;
+        margin-top: 34px;
+        text-align: justify;
+    }
+
     .icons {
         display: flex;
         flex-direction: row;
@@ -673,31 +790,152 @@ footer {
         align-items: center;
 
     }
-    .tooltip  {
+
+    .tooltip {
         width: 100px;
         color: #D9D9D9;
         display: flex;
         flex-direction: column;
         gap: 5px;
-       
+
     }
+
     .line3 {
-        width:600px;
+        width: 600px;
         border-top: 2px solid #BE8600;
-        margin: 0 auto;
         margin-top: 12em;
+        margin-left: 5.5em;
     }
+
     .line4 {
-        width:600px;
+        width: 600px;
         border-top: 2px solid #BE8600;
         margin: 0 auto;
         margin-top: 7em;
     }
-    .line4 h3{
-        width:100%;
+
+    .line4 h3 {
+        width: 100%;
         margin-left: 10em;
     }
-    
+
+    .box {
+        width: 320px;
+        height: 120px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2em;
+    }
+
+    .box p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: justify;
+        color: #C7C7C7;
+
+    }
+
+    .caixa {
+        border: 1px solid #BE8600;
+        width: 80px;
+        height: 80px;
+        background: #292931;
+
+    }
+
+    .habilities {
+        padding-left: 0.5em;
+        width: 320px;
+    }
+
+    .alinhamento {
+        margin-left: 16em;
+    }
+
+    .contacts {
+        width: 600px;
+        margin-left: 5em;
+    }
+    .line-footer{
+        width: 795px
+    }
+    .projects{
+        margin-left: 6em;
+    }
+}
+
+
+@media screen and (max-width: 540px) {
+    .container {
+        margin-left: 15em;
+    }
+
+    .line1 {
+        text-align: center;
+    }
+
+    .line12 {
+        text-align: center;
+    }
+
+    .first-paragraph {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 60px;
+        color: #C7C7C7;
+        margin-top: 34px;
+        text-align: center;
+    }
+
+    .second-paragraph {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 35px;
+        color: #D9D9D9;
+        margin-top: 34px;
+        text-align: justify;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .tooltip {
+        width: 100px;
+        color: #D9D9D9;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+    }
+
+    .line3 {
+        width: 600px;
+        border-top: 2px solid #BE8600;
+        margin-top: 12em;
+        margin-left: 5.5em;
+    }
+
+    .line4 {
+        width: 600px;
+        border-top: 2px solid #BE8600;
+        margin: 0 auto;
+        margin-top: 7em;
+    }
+
+    .line4 h3 {
+        width: 100%;
+        margin-left: 10em;
+    }
+
     .box {
         width: 600px;
         height: 120px;
@@ -708,20 +946,39 @@ footer {
         justify-content: center;
         gap: 2em;
     }
+
     .box p {
         font-weight: 400;
         font-size: 20px;
         line-height: 30px;
         text-align: justify;
         color: #C7C7C7;
-    
+
     }
-    
+
     .caixa {
         border: 1px solid #BE8600;
         width: 80px;
         height: 80px;
         background: #292931;
-    } 
+
+    }
+
+    .habilities {
+        margin-left: 5em;
+        width: 600px;
+    }
+
+    .alinhamento {
+        margin-left: 16em;
+    }
+
+    .contacts {
+        width: 600px;
+        margin-left: 5em;
+    }
+    .line-footer{
+        width: 795px
+    }
 }
 
