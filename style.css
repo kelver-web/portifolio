@@ -178,7 +178,6 @@ button:hover {
     margin: 0 auto;
     margin-top: 12em;
 }
-
 .box {
     width: 708px;
     height: 120px;
@@ -436,7 +435,7 @@ footer {
     .line1{
         text-align: center;
     }
-    .line12 {
+    .line2 {
         text-align: center;
     }
     .first-paragraph {
@@ -476,6 +475,10 @@ footer {
         margin: 0 auto;
         margin-top: 12em;
     }
+    .line3 h3 {
+        margin-right: 2em;
+        
+    }
     .box {
         width: 600px;
         height: 120px;
@@ -494,12 +497,24 @@ footer {
         color: #C7C7C7;
     
     }
+    .box h3 {
+        margin-left: 4em;
+        padding-top: 3em;
+       
+    }
     .caixa {
         border: 1px solid #BE8600;
         width: 80px;
         height: 80px;
         background: #292931;
-    } 
+        margin-top: 5em;
+    }
+    .line-footer {
+        width: 790px;
+    }
+    .alinhamento{
+        margin-left: 3em;
+    }
     
 }
 
@@ -529,7 +544,7 @@ footer {
     .line1{
         text-align: center;
     }
-    .line12 {
+    .line2 {
         text-align: center;
     }
     .first-paragraph {
@@ -564,10 +579,20 @@ footer {
        
     }
     .line3 {
-        width:600px;
+        width:100%;
         border-top: 2px solid #BE8600;
         margin: 0 auto;
         margin-top: 12em;
+    }
+    .line3 h3{
+        margin-right: 3em;
+        margin-left: 3em;
+    }
+    .line3 .hab{
+       padding-top: 2em;
+    }
+    .line3 .cont {
+        margin-left: 0em;
     }
     .box {
         width: 600px;
@@ -592,6 +617,7 @@ footer {
         width: 80px;
         height: 80px;
         background: #292931;
+        margin-top: 2em;
     } 
 }
 
@@ -661,6 +687,17 @@ footer {
         margin: 0 auto;
         margin-top: 12em;
     }
+    .line4 {
+        width:600px;
+        border-top: 2px solid #BE8600;
+        margin: 0 auto;
+        margin-top: 7em;
+    }
+    .line4 h3{
+        width:100%;
+        margin-left: 10em;
+    }
+    
     .box {
         width: 600px;
         height: 120px;
@@ -679,6 +716,7 @@ footer {
         color: #C7C7C7;
     
     }
+    
     .caixa {
         border: 1px solid #BE8600;
         width: 80px;
@@ -687,131 +725,3 @@ footer {
     } 
 }
 
-@media screen and (max-width: 540px){
-    .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 47px;
-        padding-top: 70px;
-    }
-    .person-img {
-        margin-left: 13em;
-    }
-    .left {
-        display: flex;
-        text-align: center;
-        width: 100%;
-        margin-left: 13em;
-       
-    }
-    h1 {
-        font-weight: 700;
-        font-size: 30px;
-        line-height: 60px;
-        color: #D9D9D9;
-    }
-    .line1{
-        text-align: center;
-    }
-    .line2 {
-        text-align: center;
-    }
-    .first-paragraph {
-        font-weight: 600;
-        font-size: 30px;
-        line-height: 60px;
-        color: #C7C7C7;
-        margin-top: 34px;
-        text-align: center;
-    }
-    .second-paragraph {
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 35px;
-        color: #D9D9D9;
-        margin-top: 34px;
-        text-align: justify;
-    }
-    .icons {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin-left: 13em;
-
-    }
-    .tooltip  {
-        width: 100px;
-        color: #D9D9D9;
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-       
-    }
-    .line3 {
-        width:600px;
-        border-top: 2px solid #BE8600;
-        margin: 0 auto;
-        margin-top: 12em;
-        margin-left: 5em;
-    }
-    .line4 {
-        width:600px;
-        border-top: 2px solid #BE8600;
-        margin: 0 auto;
-        margin-top: 5em;
-        margin-left: 5em; 
-    }
-   
-    .box {
-        width: 600px;
-        height: 120px;
-        margin-top: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 2em;
-       
-    }
-    .box p {
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 30px;
-        text-align: justify;
-        color: #C7C7C7;
-    }
-  
-    .habilities {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        margin-left: 7em;
-    }
-    .caixa {
-        border: 1px solid #BE8600;
-        width: 80px;
-        height: 80px;
-        background: #292931;
-    }
-    .alinhamento {
-       margin-left: 15em;
-    }
-    .line4 h3 {
-        margin-right: 2em;
-    }
-    .contacts{
-        margin-left: 7em;
-        width: 100%;
-    }
-
-    footer {
-        border-top: 2px solid #BE8600;
-        margin-left: 7em;
-        width: 100%;
-
-    }
-}
